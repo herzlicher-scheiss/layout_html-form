@@ -1,1 +1,18 @@
 /* styles go here */
+section {
+  margin-bottom: 20px;
+}
+
+input,
+
+.adjust-2 {
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+.adjust {
+  margin-bottom: 20px;
+}
