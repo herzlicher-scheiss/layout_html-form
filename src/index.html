@@ -22,7 +22,7 @@
             class="input"
             type="text"
             name="surname"
-            > <br>
+            >
           </label>
           <label class="form-field">
             Name:
@@ -30,7 +30,7 @@
             class="input"
             type="text"
             name="name"
-            ><br>
+            >
           </label>
           <label
           for="quantity"
@@ -40,12 +40,12 @@
             <input
               class="input"
               id="quantity"
+              value="12"
               type="number"
               name="quantity"
-              placeholder="12"
               min="1"
               max="100"
-            ><br>
+            >
           </label>
           <label class="form-field">
             Full date of birth:
@@ -55,7 +55,7 @@
               name="dateOfBirth"
               max="2001-03-20"
               min="1939-08-19"
-            ><br >
+            >
           </label>
           <label class="form-field">
             <label>I accept the term of the agreement</label>
@@ -72,27 +72,30 @@
       <section  class="section">
         <fieldset class="fieldset">
           <legend>Registration</legend>
-          <label class="form-field" for="e-mail">E-mail:</label><br>
-          <input
+          <label class="form-field" for="e-mail">
+            E-mail:
+            <input
             class="input"
             placeholder="email@example.com"
             type="email"
             id="e-mail"
             name="e-mail"
-          ><br>
-          <label  class="form-field" for="pwd">Password:</label><br>
-          <input
+          >
+          </label>
+          <label  class="form-field" for="pwd">
+            Password:
+            <input
           class="input"
           type="password"
           id="pwd"
           name="pwd"
-          ><br><br>
+          >
+          </label>
         </fieldset>
       </section>
       <section  class="section">
         <fieldset class="fieldset">
           <legend>An interesting fact about you!</legend>
-
           Do you love cats?
           <input
           class="input"
@@ -101,7 +104,7 @@
           name="preferences"
           value="Yes"
           >
-          <label class="form-field" for="yes">Yes</label>
+          <label class="form-field  inline" for="yes">Yes</label>
           <input
           class="input"
           type="radio"
@@ -109,75 +112,83 @@
           name="preferences"
           value="No"
           >
-          <label  class="form-field" for="no">No</label> <br>
+          <label  class="form-field inline" for="no">No</label>
 
-          <label class="form-field" for="favcolor">What is your favourite colour?</label>
-          <input
+          <label class="form-field" for="favcolor">
+            What is your favourite colour?
+            <input
           class="input"
           type="color"
           id="favcolor"
           name="favcolor"
           value="#000000"
           >
-          <br>
-          <label class="form-field" for="bad_time">What time do you go to bed?</label>
-          <input
+          </label>
+          <label class="form-field" for="bad_time">
+            What time do you go to bed?
+            <input
           class="input"
           type="time"
           id="bad_time"
           name="bad_time"
-          > <br>
-
-          <label class="form-field" for="cars">What are your favourite brand of cars?</label>
-          <select class="select" name="cars"
+          >
+          </label>
+          <label class="form-field" for="cars">
+            What are your favourite brand of cars?
+            <select class="select" name="cars"
           id="cars">
-            <option value="audi">Audi</option>
-            <option value="BMW">BMW</option>
-            <option value="Lada">Lada</option>
-          </select>
-          <br>
-
-          <label class="form-field" for="rating">How do you rate our work?</label>
-          <input
+              <option value="audi">Audi</option>
+              <option value="BMW">BMW</option>
+              <option value="Lada">Lada</option>
+            </select>
+          </label>
+          <label class="form-field" for="rating">
+            How do you rate our work?
+            <input
           class="input"
           type="range"
           id="rating"
           name="rating"
           min="1"
           max="10"
-          >
+            >
+          </label>
         </fieldset>
       </section>
       <section  class="section">
         <fieldset class="fieldset">
-          <legend>Additional info:</legend><br>
-          <div>
-            <label class="form-field" for="review">Comments:</label>
-            <textarea
+          <legend>Additional info:</legend>
+          <div  class="adjust-2">
+            <label class="form-field" for="review">
+              Comments:
+              <textarea
             id="review"
             name="review"
             rows="2"
             cols="20"
             >
+              </textarea>
+            </label>
             </textarea>
-          </div><br>
+          </div>
 
-          <label  class="form-field" for="yesNo">Would you recommend us?</label>
-          <select
+          <label  class="form-field" for="yesNo">
+            Would you recommend us?
+            <select
           class="select"
           name="yesNo"
           id="yesNo"
-          >
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
+            >
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
         </fieldset>
       </section>
       <input
       class="input"
       type="submit"
-      value="Submit"
-      >
+      value="Submit">
     </form>
   </body>
 </html>
