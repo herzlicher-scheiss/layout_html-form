@@ -1,26 +1,21 @@
-section {
+.section {
   margin-bottom: 20px;
 }
 
-input,
-
+.input,
 .adjust-2 {
   margin-bottom: 10px;
 }
 
-select {
+.select {
   margin-bottom: 10px;
 }
 
-.adjust {
-  margin-bottom: 20px;
-}
-
-label {
+.form-field. {
   margin-bottom: 10px;
 }
 
-fieldset {
+.fieldset {
   margin-bottom: 20px;
   padding-bottom: 0;
 }

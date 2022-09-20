@@ -13,12 +13,13 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
     >
-      <section>
-        <fieldset>
+      <section  class="section">
+        <fieldset class="fieldset">
           <legend>Personal information</legend>
           <label class="form-field">
             Surname:
             <input
+            class="input"
             type="text"
             name="surname"
             > <br>
@@ -26,6 +27,7 @@
           <label class="form-field">
             Name:
             <input
+            class="input"
             type="text"
             name="name"
             ><br>
@@ -36,6 +38,7 @@
           >
             How old are You?:
             <input
+              class="input"
               id="quantity"
               type="number"
               name="quantity"
@@ -47,6 +50,7 @@
           <label class="form-field">
             Full date of birth:
             <input
+              class="input"
               type="date"
               name="dateOfBirth"
               max="2001-03-20"
@@ -55,76 +59,87 @@
           </label>
           <label class="form-field">
             <label>I accept the term of the agreement</label>
-            <input type="checkbox" name="terms"
+            <input
+            class="input"
+            type="checkbox"
+            name="terms"
             required
             >
           </label>
         </fieldset>
       </section>
 
-      <section>
-        <fieldset>
+      <section  class="section">
+        <fieldset class="fieldset">
           <legend>Registration</legend>
-          <label for="e-mail">E-mail:</label><br>
+          <label class="form-field" for="e-mail">E-mail:</label><br>
           <input
+            class="input"
             placeholder="email@example.com"
             type="email"
             id="e-mail"
             name="e-mail"
           ><br>
-          <label for="pwd">Password:</label><br>
+          <label  class="form-field" for="pwd">Password:</label><br>
           <input
+          class="input"
           type="password"
           id="pwd"
           name="pwd"
           ><br><br>
         </fieldset>
       </section>
-      <section>
-        <fieldset>
+      <section  class="section">
+        <fieldset class="fieldset">
           <legend>An interesting fact about you!</legend>
 
           Do you love cats?
           <input
+          class="input"
           type="radio"
           id="yes"
           name="preferences"
           value="Yes"
           >
-          <label for="yes">Yes</label>
+          <label class="form-field" for="yes">Yes</label>
           <input
+          class="input"
           type="radio"
           id="no"
           name="preferences"
           value="No"
           >
-          <label for="no">No</label> <br>
+          <label  class="form-field" for="no">No</label> <br>
 
-          <label for="favcolor">What is your favourite colour?</label>
+          <label class="form-field" for="favcolor">What is your favourite colour?</label>
           <input
+          class="input"
           type="color"
           id="favcolor"
           name="favcolor"
           value="#000000"
           >
           <br>
-          <label for="bad_time">What time do you go to bed?</label>
+          <label class="form-field" for="bad_time">What time do you go to bed?</label>
           <input
+          class="input"
           type="time"
           id="bad_time"
           name="bad_time"
           > <br>
 
-          <label for="cars">What are your favourite brand of cars?</label>
-          <select name="cars" id="cars">
+          <label class="form-field" for="cars">What are your favourite brand of cars?</label>
+          <select class="select" name="cars"
+          id="cars">
             <option value="audi">Audi</option>
             <option value="BMW">BMW</option>
             <option value="Lada">Lada</option>
           </select>
           <br>
 
-          <label for="rating">How do you rate our work?</label>
+          <label class="form-field" for="rating">How do you rate our work?</label>
           <input
+          class="input"
           type="range"
           id="rating"
           name="rating"
@@ -133,11 +148,11 @@
           >
         </fieldset>
       </section>
-      <section  class="adjust">
-        <fieldset>
+      <section  class="section">
+        <fieldset class="fieldset">
           <legend>Additional info:</legend><br>
           <div>
-            <label for="review">Comments:</label>
+            <label class="form-field" for="review">Comments:</label>
             <textarea
             id="review"
             name="review"
@@ -147,8 +162,9 @@
             </textarea>
           </div><br>
 
-          <label for="yesNo">Would you recommend us?</label>
+          <label  class="form-field" for="yesNo">Would you recommend us?</label>
           <select
+          class="select"
           name="yesNo"
           id="yesNo"
           >
@@ -157,7 +173,11 @@
           </select>
         </fieldset>
       </section>
-      <input type="submit" value="Submit">
+      <input
+      class="input"
+      type="submit"
+      value="Submit"
+      >
     </form>
   </body>
 </html>
