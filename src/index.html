@@ -36,7 +36,7 @@
           for="quantity"
           class="form-field"
           >
-            How old are You?:
+            How old are You?
             <input
               class="input"
               id="quantity"
@@ -53,8 +53,6 @@
               class="input"
               type="date"
               name="dateOfBirth"
-              max="2001-03-20"
-              min="1939-08-19"
             >
           </label>
           <label class="form-field">
@@ -80,7 +78,7 @@
             type="email"
             id="e-mail"
             name="e-mail"
-          >
+            >
           </label>
           <label  class="form-field" for="pwd">
             Password:
@@ -89,40 +87,39 @@
           type="password"
           id="pwd"
           name="pwd"
-          >
+            >
           </label>
         </fieldset>
       </section>
       <section  class="section">
         <fieldset class="fieldset">
           <legend>An interesting fact about you!</legend>
+          <label  class="form-field">
           Do you love cats?
-          <input
-          class="input"
-          type="radio"
-          id="yes"
-          name="preferences"
-          value="Yes"
-          >
-          <label class="form-field  inline" for="yes">Yes</label>
-          <input
-          class="input"
-          type="radio"
-          id="no"
-          name="preferences"
-          value="No"
-          >
-          <label  class="form-field inline" for="no">No</label>
-
+            <input
+            type="radio"
+            id="yes"
+            name="preferences"
+            value="Yes"
+            >
+            <label for="Yes">Yes</label>
+            <input
+            type="radio"
+            id="no"
+            name="preferences"
+            value="No"
+            >
+            <label for="No">No</label>
+          </label>
           <label class="form-field" for="favcolor">
-            What is your favourite colour?
+            What is your favorite color?
             <input
           class="input"
           type="color"
           id="favcolor"
           name="favcolor"
           value="#000000"
-          >
+            >
           </label>
           <label class="form-field" for="bad_time">
             What time do you go to bed?
@@ -131,12 +128,12 @@
           type="time"
           id="bad_time"
           name="bad_time"
-          >
+            >
           </label>
           <label class="form-field" for="cars">
-            What are your favourite brand of cars?
-            <select class="select" name="cars"
-          id="cars">
+            What are your favorite brand of cars?
+            <select class="select none" name="cars"
+          id="cars" size="4">
               <option value="audi">Audi</option>
               <option value="BMW">BMW</option>
               <option value="Lada">Lada</option>
@@ -175,12 +172,11 @@
           <label  class="form-field" for="yesNo">
             Would you recommend us?
             <select
-          class="select"
           name="yesNo"
           id="yesNo"
             >
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
+              <option value="yes">yes</option>
+              <option value="no">no</option>
             </select>
           </label>
         </fieldset>
@@ -188,7 +184,8 @@
       <input
       class="input"
       type="submit"
-      value="Submit">
+      value="Submit"
+      >
     </form>
   </body>
 </html>

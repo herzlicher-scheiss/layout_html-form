@@ -1,24 +1,14 @@
-.section {
-  margin-bottom: 20px;
-}
-
-.input,
 .adjust-2 {
   margin-bottom: 10px;
 }
 
-.select {
-  margin-bottom: 10px;
-}
-
-.form-field {
-  margin-bottom: 10px;
+.form-field:not(:last-child) {
   display: block;
+  margin-bottom: 10px;
 }
 
 .fieldset {
   margin-bottom: 20px;
-  padding-bottom: 0;
 }
 
 .inline {
